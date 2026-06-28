@@ -11,14 +11,14 @@ main:
   - title: "Resume"
     url: /#resume
 
+  - title: "Documents"
+    url: /#documents
+
   - title: "Education"
     url: /#education
 
   - title: "Projects"
     url: /#projects
-
-  - title: "Documents"
-    url: /#documents
 
   - title: "Teaching"
     url: /#teaching
