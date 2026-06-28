@@ -36,34 +36,6 @@ redirect_from:
   </a>
 </div>
 
-## Documents
-
-<div class="profile-list">
-  <article class="profile-entry">
-    <h3>Black-Scholes Memo</h3>
-    <p>Memo on the Black-Scholes framework.</p>
-    <div class="resource-list">
-      <a href="/files/black-scholes-memo-maxence-caucheteux.pdf" target="_blank" rel="noopener">Memo PDF</a>
-    </div>
-  </article>
-
-  <article class="profile-entry">
-    <h3>Wald Test Presentation</h3>
-    <p>Beamer presentation on the Wald test.</p>
-    <div class="resource-list">
-      <a href="/files/wald-test-presentation-maxence-caucheteux.pdf" target="_blank" rel="noopener">Presentation slides</a>
-    </div>
-  </article>
-
-  <article class="profile-entry">
-    <h3>Galton-Watson Processes Study</h3>
-    <p>Study of Galton-Watson processes.</p>
-    <div class="resource-list">
-      <a href="/files/galton-watson-processes-study-maxence-caucheteux.pdf" target="_blank" rel="noopener">Study PDF</a>
-    </div>
-  </article>
-</div>
-
 ## Education
 
 <div class="profile-list">
@@ -159,6 +131,34 @@ redirect_from:
     <h3>Classification of Integer Simplexes</h3>
     <p class="entry-meta">Sep. 2022 - Jun. 2023</p>
     <p>Research project in discrete geometry focused on constructing a classification of integer simplexes based on their number of integer points, with an emphasis on computational algorithms.</p>
+  </article>
+</div>
+
+## Documents
+
+<div class="profile-list">
+  <article class="profile-entry">
+    <h3>Black-Scholes Memo</h3>
+    <p>Memo on the Black-Scholes framework.</p>
+    <div class="resource-list">
+      <a href="/files/black-scholes-memo-maxence-caucheteux.pdf" target="_blank" rel="noopener">Memo PDF</a>
+    </div>
+  </article>
+
+  <article class="profile-entry">
+    <h3>Wald Test Presentation</h3>
+    <p>Beamer presentation on the Wald test.</p>
+    <div class="resource-list">
+      <a href="/files/wald-test-presentation-maxence-caucheteux.pdf" target="_blank" rel="noopener">Presentation slides</a>
+    </div>
+  </article>
+
+  <article class="profile-entry">
+    <h3>Galton-Watson Processes Study</h3>
+    <p>Study of Galton-Watson processes.</p>
+    <div class="resource-list">
+      <a href="/files/galton-watson-processes-study-maxence-caucheteux.pdf" target="_blank" rel="noopener">Study PDF</a>
+    </div>
   </article>
 </div>
 
