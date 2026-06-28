@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="home-intro">
   <p class="home-kicker">Quantitative finance · Applied mathematics</p>
-  <p class="home-lead">I am Maxence Caucheteux, an engineering student at École des Ponts et Chaussées and a student in the Master Probabilité et Finance, also known as the El Karoui Master.</p>
+  <p class="home-lead">I am Maxence Caucheteux. My mathematical interests lie in applied mathematics, with a focus on quantitative finance, mathematical finance, stochastic calculus, and probability theory.</p>
   <p class="home-contact">
     <a href="tel:+33651778247">+33 6 51 77 82 47</a>
     <span>·</span>
@@ -23,19 +23,15 @@ redirect_from:
   </p>
 </div>
 
-## CV
+## Resume
 
 <div class="document-grid">
-  <a class="document-card" href="/files/resume-maxence-caucheteux.pdf">
+  <a class="document-card" href="/files/professional-resume-maxence-caucheteux.pdf">
     <span class="document-card__label">Professional resume</span>
     <span class="document-card__meta">PDF</span>
   </a>
-  <a class="document-card" href="/files/cv-academique-maxence-caucheteux.pdf">
-    <span class="document-card__label">Academic CV</span>
-    <span class="document-card__meta">PDF</span>
-  </a>
-  <a class="document-card" href="/files/memoire-m1-maxence-caucheteux.pdf">
-    <span class="document-card__label">M1 thesis</span>
+  <a class="document-card" href="/files/academic-resume-maxence-caucheteux.pdf">
+    <span class="document-card__label">Academic resume</span>
     <span class="document-card__meta">PDF</span>
   </a>
 </div>
@@ -49,7 +45,6 @@ redirect_from:
       <p class="entry-role">MSc Probabilité et Finance · DEA El Karoui</p>
       <p class="entry-meta">Paris, France · Sep. 2025 - Present</p>
     </div>
-    <p>Relevant coursework: Stochastic Modeling of Derivatives, High Frequency Trading, Rate Models, Stochastic Calculus, Numerical Methods, Stochastic Control, Machine Learning and Deep Learning, and Risk Measures.</p>
   </article>
 
   <article class="profile-entry">
@@ -58,7 +53,6 @@ redirect_from:
       <p class="entry-role">Master of Engineering, Probability and Finance · Grande École Program</p>
       <p class="entry-meta">Paris, France · Sep. 2023 - Present</p>
     </div>
-    <p>Coursework across applied mathematics, computer science, and finance, including stochastic processes, stochastic calculus, advanced statistics, partial differential equations, optimisation, control theory, functional analysis, programming, machine learning, deep learning, and financial markets.</p>
   </article>
 
   <article class="profile-entry">
@@ -67,8 +61,6 @@ redirect_from:
       <p class="entry-role">Preparatory Classes, MP2I and MPI*</p>
       <p class="entry-meta">Paris, France · Sep. 2021 - Jul. 2023</p>
     </div>
-    <p>Intensive preparation for the nationwide competitive entrance exams into French Grandes Écoles engineering schools. Coursework included mathematics, physics, computer science, philosophy, literature, and English.</p>
-    <p>Ranked 10/39 in mathematics and physics in second year. Accepted to the Mines-Ponts and Centrale-Supélec competitive entrance exams.</p>
   </article>
 </div>
 
@@ -78,10 +70,10 @@ redirect_from:
   <article class="profile-entry">
     <div>
       <h3>Barclays</h3>
-      <p class="entry-role">Incoming Quantitative Researcher Intern</p>
+      <p class="entry-role">Quantitative Researcher Intern</p>
       <p class="entry-meta">London, United Kingdom · Apr. 2026 - Oct. 2026</p>
     </div>
-    <p>Incoming six-month front-office internship within the Cross-Market Quantitative Analytics team. The role will focus on developing and implementing C++ quantitative models for trading and risk management.</p>
+    <p>Six-month front-office internship within the Cross-Market Quantitative Analytics team. The role focuses on developing and implementing C++ quantitative models for trading and risk management.</p>
   </article>
 </div>
 
@@ -95,6 +87,13 @@ redirect_from:
       <p class="entry-meta">Paris, France · Sep. 2024 - Jul. 2025</p>
     </div>
     <p>Taught two hours of mathematics classes per week to 40 second-year management students as part of the Quantitative Techniques for Economics course. Designed exam problems and graded examinations on four occasions.</p>
+    <div class="resource-list">
+      <a href="/files/teaching-paris-cite-l2-quantitative-techniques-exam-2.pdf">L2 Quantitative Techniques · Exam 2</a>
+      <a href="/files/teaching-paris-cite-l2-quantitative-techniques-exam-2-solution.pdf">L2 Quantitative Techniques · Exam 2 solution</a>
+      <a href="/files/teaching-paris-cite-l1-eg-exam-2.pdf">L1 Economics and Management · Exam 2</a>
+      <a href="/files/teaching-paris-cite-l1-om-exam-1.pdf">L1 Operations Management · Exam 1</a>
+      <a href="/files/teaching-paris-cite-l1-om-exam-1-solution.pdf">L1 Operations Management · Exam 1 solution</a>
+    </div>
   </article>
 </div>
 
@@ -105,6 +104,9 @@ redirect_from:
     <h3>State Spaces of Multifactor Approximations of Volterra Processes</h3>
     <p class="entry-meta">Jun. 2025 - Aug. 2025</p>
     <p>Summer internship supervised by Aurélien Alfonsi. Studied the state spaces of multifactor Markovian approximations of nonnegative Volterra processes, extended existing results from the literature, and explored applications in simulation schemes and PDE methods.</p>
+    <div class="resource-list">
+      <a href="/files/volterra-processes-thesis-maxence-caucheteux.pdf">M1 thesis</a>
+    </div>
   </article>
 
   <article class="profile-entry">
