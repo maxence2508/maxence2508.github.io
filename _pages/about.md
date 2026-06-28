@@ -26,11 +26,11 @@ redirect_from:
 ## Resume
 
 <div class="document-grid">
-  <a class="document-card" href="/files/professional-resume-maxence-caucheteux.pdf">
+  <a class="document-card" href="/files/professional-resume-maxence-caucheteux.pdf" target="_blank" rel="noopener">
     <span class="document-card__label">Professional resume</span>
     <span class="document-card__meta">PDF</span>
   </a>
-  <a class="document-card" href="/files/academic-resume-maxence-caucheteux.pdf">
+  <a class="document-card" href="/files/academic-resume-maxence-caucheteux.pdf" target="_blank" rel="noopener">
     <span class="document-card__label">Academic resume</span>
     <span class="document-card__meta">PDF</span>
   </a>
@@ -73,7 +73,7 @@ redirect_from:
       <p class="entry-role">Quantitative Researcher Intern</p>
       <p class="entry-meta">London, United Kingdom · Apr. 2026 - Oct. 2026</p>
     </div>
-    <p>Six-month front-office internship within the Cross-Market Quantitative Analytics team. The role focuses on developing and implementing C++ quantitative models for trading and risk management.</p>
+    <p>XVA team.</p>
   </article>
 </div>
 
@@ -88,11 +88,11 @@ redirect_from:
     </div>
     <p>Taught two hours of mathematics classes per week to 40 second-year management students as part of the Quantitative Techniques for Economics course. Designed exam problems and graded examinations on four occasions.</p>
     <div class="resource-list">
-      <a href="/files/teaching-paris-cite-l2-quantitative-techniques-exam-2.pdf">L2 Quantitative Techniques · Exam 2</a>
-      <a href="/files/teaching-paris-cite-l2-quantitative-techniques-exam-2-solution.pdf">L2 Quantitative Techniques · Exam 2 solution</a>
-      <a href="/files/teaching-paris-cite-l1-eg-exam-2.pdf">L1 Economics and Management · Exam 2</a>
-      <a href="/files/teaching-paris-cite-l1-om-exam-1.pdf">L1 Operations Management · Exam 1</a>
-      <a href="/files/teaching-paris-cite-l1-om-exam-1-solution.pdf">L1 Operations Management · Exam 1 solution</a>
+      <a href="/files/teaching-paris-cite-l2-quantitative-techniques-exam-2.pdf" target="_blank" rel="noopener">L2 Quantitative Techniques · Exam 2</a>
+      <a href="/files/teaching-paris-cite-l2-quantitative-techniques-exam-2-solution.pdf" target="_blank" rel="noopener">L2 Quantitative Techniques · Exam 2 solution</a>
+      <a href="/files/teaching-paris-cite-l1-eg-exam-2.pdf" target="_blank" rel="noopener">L1 Economics and Management · Exam 2</a>
+      <a href="/files/teaching-paris-cite-l1-om-exam-1.pdf" target="_blank" rel="noopener">L1 Operations Management · Exam 1</a>
+      <a href="/files/teaching-paris-cite-l1-om-exam-1-solution.pdf" target="_blank" rel="noopener">L1 Operations Management · Exam 1 solution</a>
     </div>
   </article>
 </div>
@@ -105,7 +105,7 @@ redirect_from:
     <p class="entry-meta">Jun. 2025 - Aug. 2025</p>
     <p>Summer internship supervised by Aurélien Alfonsi. Studied the state spaces of multifactor Markovian approximations of nonnegative Volterra processes, extended existing results from the literature, and explored applications in simulation schemes and PDE methods.</p>
     <div class="resource-list">
-      <a href="/files/volterra-processes-thesis-maxence-caucheteux.pdf">M1 thesis</a>
+      <a href="/files/volterra-processes-thesis-maxence-caucheteux.pdf" target="_blank" rel="noopener">M1 thesis</a>
     </div>
   </article>
 
@@ -113,6 +113,9 @@ redirect_from:
     <h3>Currency Option Pricing and Hedging under the Garman-Kohlhagen Model</h3>
     <p class="entry-meta">Mar. 2025 - Apr. 2025</p>
     <p>Project on FX options covering pricing and delta computation for European options, delta hedging simulations, and numerical solution of the pricing PDE for American puts using the Brennan-Schwarz algorithm.</p>
+    <div class="resource-list">
+      <a href="/files/black-scholes-memo-maxence-caucheteux.pdf" target="_blank" rel="noopener">Black-Scholes memo</a>
+    </div>
   </article>
 
   <article class="profile-entry">
@@ -125,6 +128,22 @@ redirect_from:
     <h3>Mathematical Modeling of Epidemiology and Mobility</h3>
     <p class="entry-meta">Jan. 2024 - Jun. 2024</p>
     <p>Academic project with mathematics researcher Jean-François Delmas on the influence of population movements in the spread of epidemics, through stochastic and deterministic models.</p>
+  </article>
+
+  <article class="profile-entry">
+    <h3>Galton-Watson Processes Study</h3>
+    <p>Study of Galton-Watson processes.</p>
+    <div class="resource-list">
+      <a href="/files/galton-watson-processes-study-maxence-caucheteux.pdf" target="_blank" rel="noopener">Study PDF</a>
+    </div>
+  </article>
+
+  <article class="profile-entry">
+    <h3>Wald Test Presentation</h3>
+    <p>Beamer presentation on the Wald test.</p>
+    <div class="resource-list">
+      <a href="/files/wald-test-presentation-maxence-caucheteux.pdf" target="_blank" rel="noopener">Presentation slides</a>
+    </div>
   </article>
 
   <article class="profile-entry">
@@ -149,14 +168,18 @@ redirect_from:
     <p class="entry-role">Active Member</p>
     <p class="entry-meta">École Nationale des Ponts et Chaussées · Sep. 2024 - Jun. 2025</p>
     <p>Proposed solutions to mathematical problems presented by the club, including problems related to quotient groups and normal subgroups.</p>
+    <div class="resource-list">
+      <a href="/files/math-club-exercises-sheet-maxence-caucheteux.pdf" target="_blank" rel="noopener">Exercise sheet</a>
+      <a href="/files/math-club-exercises-solutions-maxence-caucheteux.pdf" target="_blank" rel="noopener">Solutions</a>
+    </div>
   </article>
 </div>
 
 ## Skills and Interests
 
 <div class="skill-grid">
-  <div><strong>Programming</strong><span>Python, C/C++, Julia, OCaml</span></div>
-  <div><strong>Languages</strong><span>French native, English advanced, Spanish conversational</span></div>
-  <div><strong>Interests</strong><span>Running, writing</span></div>
+  <div><strong>Programming</strong><span>Python, C/C++</span></div>
+  <div><strong>Languages</strong><span>French native, English</span></div>
+  <div><strong>Interests</strong><span>Running</span></div>
   <div><strong>Running PBs</strong><span>5k: 17:30 · 10k: 37:16</span></div>
 </div>
