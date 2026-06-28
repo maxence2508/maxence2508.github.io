@@ -113,9 +113,6 @@ redirect_from:
     <h3>Currency Option Pricing and Hedging under the Garman-Kohlhagen Model</h3>
     <p class="entry-meta">Mar. 2025 - Apr. 2025</p>
     <p>Project on FX options covering pricing and delta computation for European options, delta hedging simulations, and numerical solution of the pricing PDE for American puts using the Brennan-Schwarz algorithm.</p>
-    <div class="resource-list">
-      <a href="/files/black-scholes-memo-maxence-caucheteux.pdf" target="_blank" rel="noopener">Black-Scholes memo</a>
-    </div>
   </article>
 
   <article class="profile-entry">
@@ -139,17 +136,29 @@ redirect_from:
   </article>
 
   <article class="profile-entry">
+    <h3>Classification of Integer Simplexes</h3>
+    <p class="entry-meta">Sep. 2022 - Jun. 2023</p>
+    <p>Research project in discrete geometry focused on constructing a classification of integer simplexes based on their number of integer points, with an emphasis on computational algorithms.</p>
+  </article>
+</div>
+
+## Documents
+
+<div class="profile-list">
+  <article class="profile-entry">
+    <h3>Black-Scholes Memo</h3>
+    <p>Memo on the Black-Scholes framework.</p>
+    <div class="resource-list">
+      <a href="/files/black-scholes-memo-maxence-caucheteux.pdf" target="_blank" rel="noopener">Memo PDF</a>
+    </div>
+  </article>
+
+  <article class="profile-entry">
     <h3>Wald Test Presentation</h3>
     <p>Beamer presentation on the Wald test.</p>
     <div class="resource-list">
       <a href="/files/wald-test-presentation-maxence-caucheteux.pdf" target="_blank" rel="noopener">Presentation slides</a>
     </div>
-  </article>
-
-  <article class="profile-entry">
-    <h3>Classification of Integer Simplexes</h3>
-    <p class="entry-meta">Sep. 2022 - Jun. 2023</p>
-    <p>Research project in discrete geometry focused on constructing a classification of integer simplexes based on their number of integer points, with an emphasis on computational algorithms.</p>
   </article>
 </div>
 
