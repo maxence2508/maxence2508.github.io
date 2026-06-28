@@ -90,9 +90,9 @@ redirect_from:
     <div class="resource-list">
       <a href="/files/teaching-paris-cite-l2-quantitative-techniques-exam-2.pdf" target="_blank" rel="noopener">L2 Quantitative Techniques · Exam 2</a>
       <a href="/files/teaching-paris-cite-l2-quantitative-techniques-exam-2-solution.pdf" target="_blank" rel="noopener">L2 Quantitative Techniques · Exam 2 solution</a>
-      <a href="/files/teaching-paris-cite-l1-mathematical-tools-exam-2.pdf" target="_blank" rel="noopener">L1 Mathematical Tools · Exam 2</a>
-      <a href="/files/teaching-paris-cite-l1-om-exam-1.pdf" target="_blank" rel="noopener">L1 Mathematical Tools · Exam 1</a>
-      <a href="/files/teaching-paris-cite-l1-om-exam-1-solution.pdf" target="_blank" rel="noopener">L1 Mathematical Tools · Exam 1 solution</a>
+      <a href="/files/teaching-paris-cite-l1-eg-exam-2.pdf" target="_blank" rel="noopener">L1 Mathematical Tools · Exam 2</a>
+      <a href="/files/teaching-paris-cite-l1-mathematical-tools-exam-1.pdf" target="_blank" rel="noopener">L1 Mathematical Tools · Exam 1</a>
+      <a href="/files/teaching-paris-cite-l1-mathematical-tools-exam-1-solution.pdf" target="_blank" rel="noopener">L1 Mathematical Tools · Exam 1 solution</a>
     </div>
   </article>
 </div>
