@@ -66,6 +66,18 @@
   font-family: $sans-serif;
 }
 
+.page__content h2 {
+  margin-top: 2.4rem;
+  padding-bottom: 0.35rem;
+  color: #123c69;
+  border-bottom: 2px solid rgba(18, 60, 105, 0.35);
+}
+
+html[data-theme="dark"] .page__content h2 {
+  color: #8fc7ff;
+  border-bottom-color: rgba(143, 199, 255, 0.45);
+}
+
 .document-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));

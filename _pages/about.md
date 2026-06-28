@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="home-intro">
   <p class="home-kicker">Quantitative finance · Applied mathematics</p>
-  <p class="home-lead">I am Maxence Caucheteux. My mathematical interests lie in applied mathematics, with a focus on quantitative finance, mathematical finance, stochastic calculus, and probability theory.</p>
+  <p class="home-lead">I am Maxence Caucheteux. My mathematical interests lie in applied mathematics, with a focus on quantitative finance/mathematical finance, stochastic calculus, and probability theory.</p>
   <p class="home-contact">
     <a href="tel:+33651778247">+33 6 51 77 82 47</a>
     <span>·</span>
@@ -124,7 +124,7 @@ redirect_from:
   <article class="profile-entry">
     <h3>Mathematical Modeling of Epidemiology and Mobility</h3>
     <p class="entry-meta">Jan. 2024 - Jun. 2024</p>
-    <p>Academic project with mathematics researcher Jean-François Delmas on the influence of population movements in the spread of epidemics, through stochastic and deterministic models.</p>
+    <p>Academic project supervised by mathematics researcher Jean-François Delmas on the influence of population movements in the spread of epidemics, through stochastic and deterministic models.</p>
   </article>
 
   <article class="profile-entry">
@@ -137,6 +137,14 @@ redirect_from:
 ## Documents
 
 <div class="profile-list">
+  <article class="profile-entry">
+    <h3>Canonical Processes</h3>
+    <p>Document on canonical processes.</p>
+    <div class="resource-list">
+      <a href="/files/canonical-processes-maxence-caucheteux.pdf" target="_blank" rel="noopener">Document PDF</a>
+    </div>
+  </article>
+
   <article class="profile-entry">
     <h3>Black-Scholes Memo</h3>
     <p>Memo on the Black-Scholes framework.</p>
