@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "fr-FR"
+locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Maxence Caucheteux"
 title_separator          : "-"
 name                     : &name "Maxence Caucheteux"
-description              : &description "Page personnelle de Maxence Caucheteux"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Personal website of Maxence Caucheteux"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://maxence2508.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -27,11 +27,11 @@ author:
   avatar           : "profile.png"
   name             : "Maxence Caucheteux"
   pronouns         : # example: "she/her"  
-  bio              : "Finance quantitative, recherche appliquée et projets académiques."
-  location         : 
-  employer         : 
+  bio              : "Quantitative finance, applied mathematics, and research projects."
+  location         : "Paris, France"
+  employer         : "École des Ponts et Chaussées | Master El Karoui"
   uri              : # URL
-  email            : 
+  email            : "maxence.caucheteux@enpc.fr"
 
   # Academic websites
   academia         : # URL
@@ -67,7 +67,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "maxence-caucheteux"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

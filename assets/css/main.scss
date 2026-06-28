@@ -57,6 +57,15 @@
   line-height: 1.45;
 }
 
+.home-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.6rem;
+  align-items: center;
+  max-width: 48rem;
+  font-family: $sans-serif;
+}
+
 .document-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
@@ -96,4 +105,59 @@
   font-size: $type-size-7;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.profile-list {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.profile-entry {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.profile-entry h3 {
+  margin: 0 0 0.25rem;
+  font-size: $type-size-5;
+}
+
+.profile-entry p {
+  margin-bottom: 0.5rem;
+}
+
+.entry-role {
+  color: var(--global-text-color);
+  font-family: $sans-serif;
+  font-weight: 700;
+}
+
+.entry-meta {
+  color: var(--global-text-color-light);
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.skill-grid div {
+  padding: 1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+}
+
+.skill-grid strong,
+.skill-grid span {
+  display: block;
+}
+
+.skill-grid strong {
+  margin-bottom: 0.35rem;
+  font-family: $sans-serif;
 }
