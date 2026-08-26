@@ -107,55 +107,6 @@ redirect_from:
   </article>
 </div>
 
-## Miscellaneous Mathematical Work
-
-<div class="document-library">
-  <a class="library-card" href="/files/canonical-processes-maxence-caucheteux.pdf" target="_blank" rel="noopener">
-    <span class="file-mark" aria-hidden="true">PDF</span>
-    <span class="library-card__content">
-      <strong>Canonical Processes</strong>
-      <span>Probability theory notes</span>
-    </span>
-    <span class="library-card__action">Open PDF</span>
-  </a>
-
-  <a class="library-card" href="/files/black-scholes-memo-maxence-caucheteux.pdf" target="_blank" rel="noopener">
-    <span class="file-mark" aria-hidden="true">PDF</span>
-    <span class="library-card__content">
-      <strong>Black-Scholes Memo</strong>
-      <span>Mathematical finance memo</span>
-    </span>
-    <span class="library-card__action">Open PDF</span>
-  </a>
-
-  <a class="library-card" href="/files/wald-test-presentation-maxence-caucheteux.pdf" target="_blank" rel="noopener">
-    <span class="file-mark" aria-hidden="true">PDF</span>
-    <span class="library-card__content">
-      <strong>Wald Test Presentation</strong>
-      <span>Beamer presentation</span>
-    </span>
-    <span class="library-card__action">Open PDF</span>
-  </a>
-
-  <a class="library-card" href="/files/math-club-exercises-sheet-maxence-caucheteux.pdf" target="_blank" rel="noopener">
-    <span class="file-mark" aria-hidden="true">PDF</span>
-    <span class="library-card__content">
-      <strong>Math Club Exercise Sheet</strong>
-      <span>Problem set</span>
-    </span>
-    <span class="library-card__action">Open PDF</span>
-  </a>
-
-  <a class="library-card" href="/files/math-club-exercises-solutions-maxence-caucheteux.pdf" target="_blank" rel="noopener">
-    <span class="file-mark" aria-hidden="true">PDF</span>
-    <span class="library-card__content">
-      <strong>Math Club Solutions</strong>
-      <span>Solutions to the problem set</span>
-    </span>
-    <span class="library-card__action">Open PDF</span>
-  </a>
-</div>
-
 ## Skills and Interests
 
 <div class="skill-grid">
