@@ -46,6 +46,19 @@ redirect_from:
   </article>
 </div>
 
+## Experience
+
+<div class="profile-list timeline-list">
+  <article class="profile-entry">
+    <div>
+      <h3>Barclays</h3>
+      <p class="entry-role">Quantitative Researcher Intern</p>
+      <p class="entry-meta">London, United Kingdom · Apr. 2026 - Oct. 2026</p>
+    </div>
+    <p>XVA team</p>
+  </article>
+</div>
+
 ## Education
 
 <div class="profile-list timeline-list">
@@ -71,19 +84,6 @@ redirect_from:
       <p class="entry-role">Classes Préparatoires aux Grandes Écoles (CPGE)</p>
       <p class="entry-meta">Paris, France · Sep. 2021 - Jul. 2023</p>
     </div>
-  </article>
-</div>
-
-## Experience
-
-<div class="profile-list timeline-list">
-  <article class="profile-entry">
-    <div>
-      <h3>Barclays</h3>
-      <p class="entry-role">Quantitative Researcher Intern</p>
-      <p class="entry-meta">London, United Kingdom · Apr. 2026 - Oct. 2026</p>
-    </div>
-    <p>XVA team</p>
   </article>
 </div>
 
