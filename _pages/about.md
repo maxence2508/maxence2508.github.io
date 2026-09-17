@@ -114,6 +114,6 @@ redirect_from:
   <div><strong>Languages</strong><span>French native, English</span></div>
   <div>
     <strong>Interests</strong>
-    <span>Running · Writing <a class="interest-example" href="/files/le-pouvoir-des-mots-maxence-caucheteux.pdf" target="_blank" rel="noopener">see e.g.</a></span>
+    <span>Running · Writing <small class="interest-example">see e.g. <a href="/files/le-pouvoir-des-mots-maxence-caucheteux.pdf" target="_blank" rel="noopener">[1]</a></small></span>
   </div>
 </div>
