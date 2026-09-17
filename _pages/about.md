@@ -116,8 +116,8 @@ redirect_from:
       <p class="entry-role">École Nationale des Ponts et Chaussées</p>
     </div>
     <div class="resource-list">
-      <a href="/files/GroupTheoryExerciseSheet.pdf" target="_blank" rel="noopener">GroupTheoryExerciseSheet</a>
-      <a href="/files/GroupTheoryExerciseSheetSolutions.pdf" target="_blank" rel="noopener">GroupTheoryExerciseSheetSolutions</a>
+      <a href="/files/GroupTheoryExerciseSheet.pdf" target="_blank" rel="noopener">Group Theory Exercise Sheet</a>
+      <a href="/files/GroupTheoryExerciseSheetSolutions.pdf" target="_blank" rel="noopener">Group Theory Exercise Sheet Solutions</a>
     </div>
     <p class="resource-note">(Exercise sheet not written by me.)</p>
   </article>
