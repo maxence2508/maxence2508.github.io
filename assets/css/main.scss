@@ -381,6 +381,30 @@ html[data-theme="dark"] .skill-grid div {
   line-height: 1.45;
 }
 
+.document-list {
+  margin: 1rem 0 2rem;
+  padding-left: 1.3rem;
+}
+
+.document-list > li {
+  padding-left: 0.2rem;
+}
+
+.document-title {
+  margin: 0;
+  font-family: $sans-serif;
+}
+
+.document-title span {
+  margin-left: 0.35rem;
+  color: #66788a;
+  font-size: $type-size-6;
+}
+
+html[data-theme="dark"] .document-title span {
+  color: #aab9c6;
+}
+
 @media (max-width: 600px) {
   .home-intro {
     border-radius: 7px;
