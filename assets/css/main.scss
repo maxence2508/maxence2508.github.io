@@ -388,21 +388,37 @@ html[data-theme="dark"] .skill-grid div {
 
 .document-list > li {
   padding-left: 0.2rem;
-}
-
-.document-title {
-  margin: 0;
   font-family: $sans-serif;
+  font-size: $type-size-6;
+  line-height: 1.6;
+  white-space: nowrap;
 }
 
-.document-title span {
-  margin-left: 0.35rem;
+.document-meta {
+  margin-left: 0.3rem;
   color: #66788a;
   font-size: $type-size-6;
 }
 
-html[data-theme="dark"] .document-title span {
+html[data-theme="dark"] .document-meta {
   color: #aab9c6;
+}
+
+.document-separator {
+  margin: 0 0.35rem;
+  color: var(--global-text-color-light);
+}
+
+.page__content .document-list a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+.document-note {
+  margin-left: 0.2rem;
+  color: var(--global-text-color-light);
+  font-size: $type-size-7;
+  font-style: italic;
 }
 
 @media (max-width: 600px) {
@@ -424,6 +440,10 @@ html[data-theme="dark"] .document-title span {
 
   .timeline-list .profile-entry::before {
     left: -1.44rem;
+  }
+
+  .document-list > li {
+    white-space: normal;
   }
 
 }

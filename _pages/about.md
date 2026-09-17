@@ -111,12 +111,13 @@ redirect_from:
 
 <ul class="document-list">
   <li>
-    <p class="document-title"><strong>Math Club</strong> <span>École Nationale des Ponts et Chaussées</span></p>
-    <div class="resource-list">
-      <a href="/files/GroupTheoryExerciseSheet.pdf" target="_blank" rel="noopener">Group Theory Exercise Sheet</a>
-      <a href="/files/GroupTheoryExerciseSheetSolutions.pdf" target="_blank" rel="noopener">Group Theory Exercise Sheet Solutions</a>
-    </div>
-    <p class="resource-note">(Exercise sheet not written by me.)</p>
+    <strong>Math Club</strong>
+    <span class="document-meta">École Nationale des Ponts et Chaussées</span>
+    <span class="document-separator">·</span>
+    <a href="/files/GroupTheoryExerciseSheet.pdf" target="_blank" rel="noopener">Group Theory Exercise Sheet</a>
+    <small class="document-note">(not written by me)</small>
+    <span class="document-separator">·</span>
+    <a href="/files/GroupTheoryExerciseSheetSolutions.pdf" target="_blank" rel="noopener">Solutions</a>
   </li>
 </ul>
 
