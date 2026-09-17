@@ -107,6 +107,22 @@ redirect_from:
   </article>
 </div>
 
+## Documents
+
+<div class="profile-list">
+  <article class="profile-entry">
+    <div>
+      <h3>Math Club</h3>
+      <p class="entry-role">École Nationale des Ponts et Chaussées</p>
+    </div>
+    <div class="resource-list">
+      <a href="/files/GroupTheoryExerciseSheet.pdf" target="_blank" rel="noopener">GroupTheoryExerciseSheet</a>
+      <a href="/files/GroupTheoryExerciseSheetSolutions.pdf" target="_blank" rel="noopener">GroupTheoryExerciseSheetSolutions</a>
+    </div>
+    <p class="resource-note">(Exercise sheet not written by me.)</p>
+  </article>
+</div>
+
 ## Skills and Interests
 
 <div class="skill-grid">
