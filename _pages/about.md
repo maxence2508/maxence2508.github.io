@@ -112,5 +112,8 @@ redirect_from:
 <div class="skill-grid">
   <div><strong>Programming</strong><span>Python, C/C++</span></div>
   <div><strong>Languages</strong><span>French native, English</span></div>
-  <div><strong>Interests</strong><span>Running</span></div>
+  <div>
+    <strong>Interests</strong>
+    <span>Running · Writing <a class="interest-example" href="/files/le-pouvoir-des-mots-maxence-caucheteux.pdf" target="_blank" rel="noopener">see e.g.</a></span>
+  </div>
 </div>

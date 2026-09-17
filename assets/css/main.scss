@@ -339,6 +339,13 @@ html[data-theme="dark"] .skill-grid div {
   font-family: $sans-serif;
 }
 
+.page__content .interest-example {
+  margin-left: 0.2rem;
+  font-size: 0.72em;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
 .resource-list {
   display: flex;
   flex-wrap: wrap;
