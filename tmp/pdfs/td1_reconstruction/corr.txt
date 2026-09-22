@@ -1,0 +1,378 @@
+
+
+=== PAGE 1 ===
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                           Proposition de corrigé TD1 CM                            
+                                                                                    
+                                   Maxence Caucheteux                               
+                                                                                    
+                                    October 30, 2023                                
+                                                                                    
+                                                                                    
+          Exercice 2                                                                
+          Q1                                                                        
+                                                                                    
+          𝑆𝐿 (𝑘) est un sous-groupe de 𝐺𝐿 (𝑘) (vérifications élémentaires). Pour 𝐴 ∈ 𝐺𝐿 (𝑘) et 𝐵 ∈
+            𝑛                    𝑛                                𝑛                 
+          𝑆𝐿 (𝑘),det(𝐴𝐵𝐴−1) = det(𝐵) = 1donc𝐴𝐵𝐴−1 ∈ 𝑆𝐿 (𝑘). Donc𝑆𝐿 (𝐾)◁𝐺𝐿 (𝑘). L’application
+            𝑛                                 𝑛        𝑛      𝑛                     
+                              𝜙  ∶ 𝐺𝐿 (𝑘)/𝑆𝐿 (𝑘) → 𝑘∗                               
+                                     𝑛    𝑛                                         
+                                       𝑀̄     ↦  det(𝑀)                             
+          est bien définie et est un isomorphisme de groupes.                       
+          Preuve :                                                                  
+              Il est clair qu’elle est bien définie (image indépendante du choix du représentant et bien à
+              valeur dans 𝑘∗) et que c’est un morphisme de groupes.                 
+              Si𝜙(𝑀̄) = det(𝑀) = 1, alors𝑀 ∈ 𝑆𝐿 (𝑘)et𝑀̄ = 𝑆𝐿 (𝑘), donc𝜙estinjective. Pour𝑥 ∈ 𝑘∗,
+                                       𝑛         𝑛                                  
+              on pose 𝑀 = 𝐷(𝑥,1 ,...,1 ) ∈ 𝐺𝐿 (𝑘), de sorte que 𝜙(𝑀̄) = det(𝑀) = 𝑥, ce qui montre la
+                           𝑘   𝑘     𝑛                                              
+              surjectivité de 𝜙.                                                    
+          Ainsi 𝐺𝐿 (𝑘)/𝑆𝐿 (𝑘) ≅ 𝑘∗                                                  
+                𝑛     𝑛                                                             
+          Q2 Soit 𝜏 une transposition de 𝐻 (il en existe une par hypothèse). On note 𝜏 = (𝑖 𝑗). On a :
+                                ∀𝜎 ∈ 𝑆 , 𝜎𝜏𝜎−1 = (𝜎(𝑖) 𝜎(𝑗))                        
+                                     𝑛                                              
+          Cela prouve que 𝐻 contient toutes les transpositions de 𝑆 . Comme les transpositions engendrent
+                                                𝑛                                   
+          𝑆 , on a 𝐻 = 𝑆                                                            
+           𝑛        𝑛                                                               
+          Exercice 3 - Centre                                                       
+          Q1 Les 𝑓 (𝑔 ∈ 𝐺) sont des automorphismes.                                 
+                𝑔                                                                   
+          Morphismes : ∀𝑔 ∈ 𝐺, ∀𝑥 ,𝑥 ∈ 𝐺,                                           
+                            1  2                                                    
+                        𝑓 (𝑥 𝑥 ) = 𝑔𝑥 𝑥 𝑔−1 = (𝑔𝑥 𝑔−1)(𝑔𝑥 𝑔−1) = 𝑓 (𝑥 )𝑓 (𝑥 )       
+                        𝑔 1 2    1 2     1     2     𝑔  1 𝑔 2                       
+          Bijectifs : Les morphismes 𝑓 admettent pour réciproque :                  
+                             𝑔                                                      
+                                    𝜙 ∶ 𝐺 →   𝐺                                     
+                                        𝑥 ↦  𝑔−1𝑥𝑔                                  
+          Ainsi Int(𝐺) ⊂ Aut(𝐺).                                                    
+                                                                                    
+                                          1                                         
+                                                                                    
+                                                                                    
+
+=== PAGE 2 ===
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+          Int(𝐺) est un sous-groupe de Aut(𝐺).                                      
+          id = 𝑓 donc id ∈ Int(𝐺)                                                   
+           𝐺   𝑒      𝐺                                                             
+                𝑔                                                                   
+          Si 𝑔 ,𝑔 ∈ 𝐺, pour 𝑥 ∈ 𝐺,                                                  
+            1 2                                                                     
+                   𝑓 ∘𝑓 (𝑥) = 𝑓 (𝑔 𝑥𝑔−1) = 𝑔 𝑔 𝑥𝑔−1𝑔−1 = (𝑔 𝑔 )𝑥(𝑔 𝑔 )−1 = 𝑓 (𝑥)    
+                    𝑔  𝑔     𝑔  2 2    1 2 2 1   1 2  1 2    𝑔 𝑔                    
+                    1   2     1                               1 2                   
+          Donc 𝑓 ∘𝑓 ∈ Int(𝐺).                                                       
+               𝑔  𝑔                                                                 
+               1  2                                                                 
+          Si 𝑔 ∈ 𝐺, 𝑓−1 = 𝑓 donc 𝑓−1 ∈ Int(𝐺).                                      
+                 𝑔   𝑔−1    𝑔                                                       
+          𝑍(𝐺) est un sous-groupe normal de 𝐺.                                      
+          Preuve :                                                                  
+              C’est bien un sous-groupe de 𝐺 (vérifications élémentaires) et il est distingué car pour 𝑔 ∈ 𝐺
+              et ℎ ∈ 𝑍(𝐺), pour tout 𝑥 ∈ 𝐺, 𝑔ℎ𝑔−1𝑥 = 𝑔𝑔−1ℎ𝑥 = ℎ𝑥 et 𝑥𝑔ℎ𝑔−1 = 𝑥ℎ𝑔𝑔−1 = 𝑥ℎ = ℎ𝑥.
+              Donc 𝑔ℎ𝑔−1 ∈ 𝑍(𝐺), ce qui conclut.                                    
+          Q2 On note (𝑔̄) les classes d’équivalence distinctes (𝑔 ∈ 𝐺). On définit :
+                    𝑖 𝑖∈𝐼                      𝑖                                    
+                                 𝜙 ∶ 𝐺/𝑍(𝐺) →  Int(𝐺)                               
+                                       𝑔̄   ↦   𝑓                                   
+                                        𝑖        𝑔                                  
+                                                 𝑖                                  
+          𝜙 est bien définie. En effet, pour 𝑖 ∈ 𝐼 et 𝑧 ∈ 𝑍(𝐺),                     
+                            ∀𝑥 ∈ 𝐺, 𝑓 (𝑥) = (𝑔 𝑧)𝑥(𝑔 𝑧)−1 = 𝑔 𝑥𝑔−1                  
+                                   𝑔 𝑧    𝑖   𝑖     𝑖 𝑖                             
+                                    𝑖                                               
+          (image indépendante du représentant choisi)                               
+          Pour 𝑖,𝑗 ∈ 𝐼,                                                             
+                          𝜙(𝑔̄𝑔̄) = 𝜙(𝑔 𝑔̄ ) = 𝑓 = 𝑓 ∘𝑓 = 𝜙(𝑔̄)∘𝜙(𝑔̄)               
+                            𝑖 𝑗   𝑖 𝑗   𝑔 𝑔  𝑔  𝑔    𝑖    𝑗                         
+                                        𝑖 𝑗  𝑖  𝑗                                   
+          Donc 𝜙 est un morphisme.                                                  
+          Si 𝑔̄ (𝑖 ∈ [1,𝑘]) vérifie 𝜙(𝑔̄) = id ie :                                 
+            𝑖              𝑖   𝐺                                                    
+                                    ∀𝑥 ∈ 𝐺, 𝑔 𝑥 = 𝑥𝑔                                
+                                           𝑖    𝑖                                   
+          Donc 𝑔 = 𝑍(𝐺) et 𝑔̄ = 𝑍(𝐺). 𝜙 est donc injective.                         
+               𝑖        𝑖                                                           
+          Soit 𝑓 ∈ Int(𝐺) (avec 𝑔 ∈ 𝐺), on a alors 𝜙(𝑔)̄ = 𝑓 . Donc 𝜙 est surjective.
+              𝑔                            𝑔                                        
+          Bilan : 𝜙 est un isomorphisme donc                                        
+                                    𝐺/𝑍(𝐺) ≅ Int(𝐺)                                 
+          Q3 Si 𝐺/𝑍(𝐺) est est monogène. 𝐺/𝑍(𝐺) s’écrit 𝐺/𝑍(𝐺) =< 𝑔𝑍(𝐺) >. Soient 𝑔 ,𝑔 ∈ 𝐺. Alors
+                                                                1 2                 
+          𝑔 = 𝑔𝑘 1𝑧 et 𝑔 = 𝑔𝑘 2𝑧 avec 𝑧 ,𝑧 ∈ 𝑍(𝐺).                                  
+           1    1   2    2    1 2                                                   
+          Ainsi :                                                                   
+                     𝑔 𝑔 = 𝑔𝑘 1𝑧 𝑔𝑘 2𝑧 = 𝑔𝑘 1𝑔𝑘 2𝑧 𝑧 = 𝑔𝑘 2𝑔𝑘 1𝑧 𝑧 = 𝑔𝑘 2𝑧 𝑔𝑘 1𝑧 = 𝑔 𝑔
+                     1 2    1   2      1 2      2 1    2  1   2 1                   
+          Donc 𝐺 est abélien.                                                       
+          Exercice 4 - Décomposition directe                                        
+                                          2                                         
+
+=== PAGE 3 ===
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+          On définit :                                                              
+                                   𝜙 ∶ 𝐻 ×𝐾  →  𝐺                                   
+                                        (ℎ,𝑘) ↦ ℎ𝑘                                  
+          𝜙 est un morphisme de groupes.                                            
+                                                                                    
+          Preuve :                                                                  
+              On montre d’abord que pour (ℎ,𝑘) ∈ 𝐻 × 𝐾, ℎ𝑘 = 𝑘ℎ. Comme 𝐻 ◁ 𝐺, 𝑘ℎ−1𝑘−1 ∈ 𝐻
+              puis ℎ𝑘ℎ−1𝑘−1 ∈ 𝐻. De même, comme 𝐾 ◁ 𝐺, ℎ𝑘ℎ−1 ∈ 𝐾 puis ℎ𝑘ℎ−1𝑘−1 ∈ 𝐾. Ainsi,
+              ℎ𝑘ℎ−1𝑘−1 ∈ 𝐻 ∩𝐾 = {𝑒 }. Donc ℎ𝑘 = 𝑘ℎ.                                 
+                              𝐺                                                     
+              Ainsi, pour (ℎ ,𝑘 ),(ℎ ,𝑘 ) ∈ 𝐻 ×𝐾, on a :                            
+                       1 1   2 2                                                    
+                       𝜙(ℎ ℎ ,𝑘 𝑘 ) = ℎ ℎ 𝑘 𝑘 = ℎ 𝑘 ℎ 𝑘 = 𝜙(ℎ ,𝑘 )𝜙(ℎ ,𝑘 )          
+                         1 2 1 2   1 2 1 2 1 1 2 2  1 1   2 2                       
+              𝜙 est donc un morphisme de groupes.                                   
+          Il est surjectif car 𝐻𝐾 = 𝐺.                                              
+                                                                                    
+          Si (ℎ,𝑘) ∈ 𝐻×𝐾 vérifie 𝜙(ℎ,𝑘) = ℎ𝑘 = 𝑒 , alors ℎ = 𝑘−1 ∈ 𝐻∩𝐾 = {𝑒 } donc ℎ = 𝑘 = 𝑒 . Cela
+                                     𝐺                   𝐺           𝐺              
+          montre l’injectivité de 𝜙.                                                
+          𝜙 est donc un isomorphisme : 𝐺 ≅ 𝐻 ×𝐾                                     
+          Exercice 5 - Groupe dérivé                                                
+          Q1 Pour 𝑔 ∈ 𝐺, 𝑧 = [𝑥,𝑦] ∈ 𝐷(𝐺) (avec 𝑥,𝑦 ∈ 𝐺), on remarque que :         
+                                                                                    
+                                𝑔𝑧𝑔−1 = [𝑔𝑥𝑔−1,𝑔𝑦𝑔−1] ∈ 𝐷(𝐺)                        
+                                                                                    
+                                                                                    
+          Pour 𝑧 ∈ 𝐷(𝐺), 𝑧 s’écrit sous la forme 𝑧 = 𝑧 ...𝑧 où les 𝑧 sont des commutateurs. Alors pour tout
+                                       1 𝑘     𝑖                                    
+          𝑔 ∈ 𝐺, par ce qui précède :                                               
+                          𝑔𝑧𝑔−1 = 𝑔𝑧 ...𝑧 𝑔−1 = (𝑔𝑧 𝑔−1)...(𝑔𝑧 𝑔−1) ∈ 𝐷(𝐺)          
+                                 1  𝑘      1      𝑘                                 
+          On a donc montré que 𝐷(𝐺)◁𝐺.                                              
+                                                                                    
+          Q2                                                                        
+          Sens indirect : Si 𝐷(𝐺) ⊂ 𝐻. Alors [𝑔−1,𝑔−1] ∈ 𝐻 ie 𝑔−1𝑔−1𝑔 𝑔 ∈ 𝐻, puis 𝑔 𝑔 ∈ 𝑔 𝑔 𝐻. Donc
+                                    1  2       1  2 1 2       1 2  2 1              
+          (𝑔 𝑔 )𝐻 ⊂ (𝑔 𝑔 )𝐻.                                                        
+           1 2     2 1                                                              
+          Par symétrie des rôles entre 𝑔 et 𝑔 , l’inclusion réciproque est vraie et on a (𝑔 𝑔 )𝐻 = (𝑔 𝑔 )𝐻.
+                              1   2                            1 2    2 1           
+          Ainsi 𝐺/𝐻 est abélien.                                                    
+          Sens indirect : Si 𝐺/𝐻 est abélien. Soient 𝑥,𝑦 ∈ 𝐺. On veut montrer que [𝑥,𝑦] ∈ 𝐻. On écrit
+          𝑥 = 𝑔 ℎ et 𝑦 = 𝑔 ℎ avec 𝑔 ,𝑔 ∈ 𝐺 et ℎ ,ℎ ∈ 𝐻. Alors :                     
+              1 1    2 2    1 2      1 2                                            
+                                [𝑥,𝑦] = 𝑔 ℎ 𝑔 ℎ (𝑔 ℎ 𝑔 ℎ )−1                        
+                                      1 1 2 2 2 2 1 1                               
+                                     ̃                                    ̃         
+          Or, comme 𝐺/𝐻 est abélien, il existe ℎ̃,ℎ̃ ∈ 𝐻 tels que 𝑔 ℎ 𝑔 ℎ = 𝑔 𝑔 ℎ ℎ̃ et 𝑔 ℎ 𝑔 ℎ = 𝑔 𝑔 ℎ ℎ̃.
+                                               1 1 2 2 2 1 1  2 2 1 1 1 2 2         
+          De sorte que :                                                            
+                                            −1                                      
+                                           ̃                                        
+                                [𝑥,𝑦] = 𝑔 𝑔 ℎ ℎ̃ℎ̃ ℎ−1𝑔−1𝑔−1                        
+                                      2 1 1   2 2 1                                 
+                                          3                                         
+
+=== PAGE 4 ===
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+          Comme 𝐺/𝐻 est abélien, il existe ℎ ∈ 𝐻 tel que 𝑔 𝑔 = 𝑔 𝑔 ℎ. Ainsi, par ce qui précède et puisque
+                                          1 2  2 1                                  
+          𝐻 ▷𝐺, on a :                                                              
+                                           −1                                       
+                                           ̃                                        
+                            [𝑥,𝑦] = (𝑔 𝑔 )(ℎ−1ℎ ℎ̃ℎ̃ ℎ−1)(𝑔 𝑔 )−1 ∈ 𝐻               
+                                  1 2    1    2  1 2                                
+          Donc 𝐷(𝐺) ⊂ 𝐻.                                                            
+          Exercice 6 - Groupe résoluble, Galois                                     
+          Q2                                                                        
+          Sens direct                                                               
+          Si 𝐺 est résoluble, il existe 𝑛 ∈ ℕ∗ tel que :                            
+                             0                                                      
+                                𝐺 = {𝑒}◁𝐺 ◁...◁𝐺  = 𝐺                               
+                                 0       1      𝑛                                   
+                                                 0                                  
+          avec ∀𝑖 ∈ [0,𝑛 −1], 𝐺 /𝐺 abélien.                                         
+                   0     𝑖+1 𝑖                                                      
+          Par Ex5, comme 𝐺 /𝐺 est abélien, on a :                                   
+                       𝑖+1 𝑖                                                        
+                                ∀𝑖 ∈ [0,𝑛 −1], 𝐷(𝐺 ) ⊂ 𝐺                            
+                                      0       𝑖+1   𝑖                               
+          Une récurrence immédiate montre alors que :                               
+                                      𝐷𝑛 0(𝐺) ⊂ {𝑒}                                 
+          Donc 𝐷𝑛 0(𝐺) = {𝑒}, ce qui conclut.                                       
+          Sens indirect                                                             
+          Si (𝐷𝑛(𝐺)) stationne à {𝑒}. Soit 𝑛 un entier tel que 𝐷𝑛 0(𝐺) = {𝑒}. Alors :
+                 𝑛∈ℕ               0                                                
+                                𝐺 = {𝑒}◁𝐺 ◁...◁𝐺  = 𝐺                               
+                                 0       1      𝑛                                   
+                                                 0                                  
+          et en vertu de Ex5, ∀𝑖 ∈ [0,𝑛 −1], 𝐷𝑖+1(𝐺)/𝐷𝑖(𝐺) est abélien.             
+                             0                                                      
+          Donc 𝐺 est résoluble.                                                     
+          Exercice 7 - Exemples de groupes résolubles                               
+          Q2 Comme 𝑟𝑠 = 𝑠𝑟−1, des calculs élémentaires montrent que 𝐷(𝐷 ) =< 𝑟2 >. Ce dernier groupe
+                                                      𝑛                             
+          étant abélien, 𝐷2(𝐷 ) = {𝑒}. Par Ex6 Q2, 𝐷 est donc résoluble.            
+                       𝑛                𝑛                                           
+          Exercice 8 - Groupe simple                                                
+          Q1 Tout sous-groupe 𝐻 d’un groupe abélien 𝐺 est distingué. Ainsi, les groupes abéliens simples
+          sont les groupes 𝐺 admettant exactement deux sous-groupes, à savoir {𝑒 } et 𝐺.
+                                                          𝐺                         
+          Or les seuls groupes 𝐺 non triviaux dont les seuls sous-groupes sont {𝑒 } et 𝐺 sont les groupes
+                                                          𝐺                         
+          cycliques d’ordre 𝑝 premier (ce sont donc les groupes isomorphes à un ℤ/𝑝ℤ avec 𝑝 premier).
+          Preuve :                                                                  
+              Sens indirect immédiat par théorème de Lagrange. Pour le sens direct, si 𝐺 est non trivial
+              dont les seuls sous-groupes sont triviaux, avec 𝑥 ∈ 𝐺 différent de 𝑒 , on a alors < 𝑥 >= 𝐺.
+                                                          𝐺                         
+              𝐺 est donc monogène. Si par l’absurde il était infini, il serait isomorphe à ℤ, ce qui n’est pas
+              possible car ℤ admet des sous-groupes stricts. 𝐺 est donc cyclique.   
+                                          4                                         
+                                                                                    
+
+=== PAGE 5 ===
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+              𝐺 est en fait d’ordre premier. En effet, si par l’absurde il ne l’est pas, avec 1 < 𝑑 < |𝐺| un
+              diviseur de |𝐺|, un lemme connu montre alors qu’il existe un élément 𝑥 ∈ 𝐺 d’ordre 𝑑. Ainsi
+              le groupe < 𝑥 > est un sous-groupe strict de 𝐺, ce qui est absurde.   
+          Q2 Si 𝐺 et simple est résoluble, il est abélien. Il est donc isomorphe à un ℤ/𝑝ℤ avec 𝑝 premier par
+          𝑄1.                                                                       
+                                                                                    
+          Exercice 10                                                               
+                                                                                    
+          On définit :                                                              
+                                𝜙  ∶ 𝐻 →     Aut(𝑁)                                 
+                                     ℎ ↦  𝜙 ∶ 𝑛 ↦ ℎ𝑛ℎ−1                             
+                                           ℎ                                        
+          𝜙 est bien défini car 𝑁 est distingué dans 𝐺 et c’est un morphisme de groupes (vérifications
+          élémentaires).                                                            
+          On définit alors :                                                        
+                                   𝑓 ∶ 𝑁 ⋊ 𝐻 →  𝐺                                   
+                                         𝑓                                          
+                                       (𝑛,ℎ) ↦  𝑛ℎ                                  
+          Des vérifications élémentaires montrent que 𝑓 est un morphisme de groupes. C’est en fait un
+          isomorphisme de groupes. L’injectivité est vraie grâce à 𝑁 ∩𝐻 = {𝑒 } et la surjectivité provient
+                                                       𝐺                            
+          du fait que 𝑁𝐻 = 𝐺.                                                       
+          Ainsi, 𝑁 ⋊ 𝐻 ≅ 𝐺.                                                         
+                 𝑓                                                                  
+          Exercice 11                                                               
+          Q1 On note 𝐶 = {(𝑥,𝑦) ∈ 𝐺2 | 𝑥𝑦 = 𝑦𝑥}. La probabilité recherchée est |𝐶| = |𝐶| . On a :
+                                                          |𝐺×𝐺| |𝐺|2                
+                            𝐶 = ⨆{𝑥}×𝐶                                   (1)        
+                                       𝑥                                            
+                                𝑥∈𝐺                                                 
+                              = ( ⨆ {𝑥}×𝐶 )⨆(  ⨆ {𝑥}×𝐶 )                 (2)        
+                                          𝑥            𝑥                            
+                                𝑥∈𝑍(𝐺)       𝑥∉𝑍(𝐺)                                 
+                              = ( ⨆ {𝑥}×𝐺)⨆(  ⨆  {𝑥}×𝐶 )                 (3)        
+                                                      𝑥                             
+                                𝑥∈𝑍(𝐺)       𝑥∉𝑍(𝐺)                                 
+          Puis, en cardinaux :                                                      
+                             𝐶 = |𝑍(𝐺)|.|𝐺|+ ∑ |𝐶 |                      (4)        
+                                               𝑥                                    
+                                         𝑥∉𝑍(𝐺)                                     
+                               = 𝑧𝑛+ ∑  |𝐶 |                             (5)        
+                                          𝑥                                         
+                                    𝑥∉𝑍(𝐺)                                          
+                               ≤ 𝑧𝑛+(|𝐺|−|𝑍(𝐺)|)max  |𝐶 |                (6)        
+                                                𝑥∉𝑍(𝐺) 𝑥                            
+          Or, les 𝐶 sont des sous-groupes de 𝐺 (vérifications élémentaires). Pour 𝑥 ∉ 𝑍(𝐺), ce sont des
+                𝑥                                                                   
+          sous-groupes stricts de 𝐺. Par théorème de Lagrange, on a donc :          
+                                                𝑛                                   
+                                   ∀𝑥 ∉ 𝑍(𝐺), |𝐶 | ≤                                
+                                             𝑥  2                                   
+          Puis :                                                                    
+                                          𝑧𝑛 𝑛2                                     
+                                     |𝐶| ≤  +                                       
+                                          2   2                                     
+                                          5                                         
+
+=== PAGE 6 ===
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+          Q2 Comme 𝐺 n’est pas abélien, via contraposée de Ex3, 𝐺/𝑍(𝐺) n’est pas monogène. On peut
+          montrer que tous les groupes d’ordre 1,2,3 sont cycliques. Ainsi, |𝐺/𝑍(𝐺)| ≥ 4, puis 𝑧 ≤ 𝑛
+                                                                     4              
+          Q3 Par suite :                                                            
+                                       𝑛2  𝑛2  5𝑛2                                  
+                                   |𝐶| ≤ +   =                                      
+                                        8  2    8                                   
+          Puis :                                                                    
+                                        |𝐶| 5                                       
+                                           ≤                                        
+                                       |𝐺|2 8                                       
+          Remarque Si 𝐺 est abélien, la probabilité recherchée vaut 1.              
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                          6                                         
+                                                                                    
+                                                                                    
