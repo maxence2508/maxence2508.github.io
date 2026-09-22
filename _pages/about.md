@@ -117,7 +117,7 @@ redirect_from:
     <a href="/files/GroupTheoryExerciseSheet.pdf" target="_blank" rel="noopener">Group Theory Exercise Sheet</a>
     <small class="document-note">(not written by me)</small>
     <span class="document-separator">·</span>
-    <a href="/files/GroupTheoryExerciseSheetSolutions.pdf" target="_blank" rel="noopener">Solutions</a>
+    <a href="/files/GroupTheoryExerciseSheetSolutions.pdf?v=20260922-2" target="_blank" rel="noopener">Solutions</a>
   </li>
   <li>
     <strong>Stochastic Calculus</strong>
