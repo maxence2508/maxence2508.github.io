@@ -111,15 +111,6 @@ redirect_from:
 
 <ul class="document-list">
   <li>
-    <strong>Math Club</strong>
-    <span class="document-meta">École Nationale des Ponts et Chaussées</span>
-    <span class="document-separator">·</span>
-    <a href="/files/GroupTheoryExerciseSheet.pdf" target="_blank" rel="noopener">Group Theory Exercise Sheet</a>
-    <small class="document-note">(not written by me)</small>
-    <span class="document-separator">·</span>
-    <a href="/files/GroupTheoryExerciseSheetSolutions.pdf?v=20260922-2" target="_blank" rel="noopener">Solutions</a>
-  </li>
-  <li>
     <strong>Stochastic Calculus</strong>
     <span class="document-meta">M2 PMA</span>
     <span class="document-separator">·</span>
