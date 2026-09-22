@@ -119,6 +119,12 @@ redirect_from:
     <span class="document-separator">·</span>
     <a href="/files/GroupTheoryExerciseSheetSolutions.pdf" target="_blank" rel="noopener">Solutions</a>
   </li>
+  <li>
+    <strong>Stochastic Calculus</strong>
+    <span class="document-meta">M2 PMA</span>
+    <span class="document-separator">·</span>
+    <a href="/files/m2-pma-stochastic-calculus-selected-solutions.pdf" target="_blank" rel="noopener">Selected solutions to the M2 PMA stochastic calculus problem set</a>
+  </li>
 </ul>
 
 ## Skills and Interests
