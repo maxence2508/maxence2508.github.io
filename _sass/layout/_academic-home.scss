@@ -1,0 +1,303 @@
+/* A document-like layout for the personal homepage. Content stays in about.md. */
+.academic-home {
+  --global-text-color: #252525;
+  --global-text-color-light: #626262;
+  --global-link-color: #234f82;
+  --global-link-color-hover: #14365d;
+  --global-link-color-visited: #234f82;
+  --global-masthead-link-color: #454545;
+  --global-masthead-link-color-hover: #234f82;
+  --global-border-color: #d9d9d9;
+
+  padding-bottom: 4rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  line-height: 1.65;
+
+  h1, h2, h3 {
+    color: var(--global-text-color);
+    font-family: inherit;
+  }
+
+  .masthead {
+    animation: none;
+  }
+
+  .masthead::after {
+    display: none;
+  }
+
+  .masthead__inner-wrap {
+    max-width: 940px;
+    padding: 0.65rem 20px;
+    font-family: inherit;
+    font-size: 0.875rem;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  .masthead__menu-item--lg {
+    padding-right: 1rem;
+  }
+
+  .masthead__menu-item.selected a {
+    border-bottom: 0;
+  }
+
+  .greedy-nav a {
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+  }
+
+  .greedy-nav .visible-links a::before {
+    display: none;
+  }
+
+  .greedy-nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+  }
+
+  #main {
+    max-width: 940px;
+    margin: 2.5rem auto 0;
+    padding: 0 20px;
+    animation: none;
+  }
+
+  .page {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .page__content {
+    overflow-wrap: break-word;
+
+    a {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.16em;
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--global-link-color);
+      outline-offset: 4px;
+    }
+
+    h2 {
+      margin: 2.2rem 0 1rem;
+      padding-bottom: 0.3rem;
+      font-size: 1.3rem;
+      font-weight: 400;
+      border-bottom: 1px solid var(--global-border-color);
+      scroll-margin-top: 5rem;
+    }
+  }
+
+  .home-intro {
+    margin-bottom: 2.4rem;
+    scroll-margin-top: 5rem;
+  }
+
+  .home-eyebrow {
+    margin-bottom: 0.35rem;
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+  }
+
+  .home-name {
+    margin: 0 0 0.4rem;
+    font-size: clamp(1.8rem, 4.5vw, 2.1rem);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: normal;
+  }
+
+  .home-kicker {
+    margin-bottom: 1.15rem;
+    font-size: 1rem;
+  }
+
+  .home-lead > p {
+    margin-bottom: 0.2rem;
+  }
+
+  .home-interests {
+    margin: 0 0 1rem;
+    padding-left: 1.3rem;
+
+    li {
+      margin-bottom: 0;
+    }
+  }
+
+  .home-contact {
+    margin-bottom: 0.55rem;
+  }
+
+  .home-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .profile-list {
+    display: grid;
+    gap: 1.3rem;
+    margin: 0;
+  }
+
+  .profile-entry {
+    min-width: 0;
+
+    h3 {
+      margin: 0 0 0.2rem;
+      font-size: 1rem;
+      line-height: 1.45;
+    }
+
+    p {
+      margin-bottom: 0.45rem;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .entry-role {
+    font-weight: 400;
+  }
+
+  .entry-meta,
+  .document-meta {
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+  }
+
+  .resource-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+    margin-top: 0.55rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .page__content .resource-note {
+    margin-top: 0.6rem;
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    line-height: 1.55;
+  }
+
+  .document-list {
+    margin: 0;
+    padding-left: 1.3rem;
+
+    > li {
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  .document-meta,
+  .document-separator {
+    margin-left: 0.3rem;
+  }
+
+  .document-separator {
+    margin-right: 0.3rem;
+    color: var(--global-text-color-light);
+  }
+
+  .skill-grid {
+    display: grid;
+    gap: 0.35rem;
+
+    > div {
+      display: grid;
+      grid-template-columns: 8rem minmax(0, 1fr);
+      gap: 0.5rem;
+    }
+  }
+
+  .interest-example {
+    margin-left: 0.2rem;
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+
+  @media (min-width: 768px) {
+    .profile-entry > div:not(.resource-list) {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(12rem, 17rem);
+      column-gap: 1.5rem;
+      align-items: baseline;
+
+      h3, .entry-role {
+        grid-column: 1;
+      }
+
+      .entry-meta {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        text-align: right;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    font-size: 1.0625rem;
+
+    #main {
+      margin-top: 1.6rem;
+    }
+
+    .masthead__inner-wrap {
+      font-size: 0.9375rem;
+    }
+
+    .page__content h2 {
+      margin-top: 1.8rem;
+    }
+
+    .entry-meta,
+    .document-meta,
+    .page__content .resource-note,
+    .interest-example {
+      font-size: 0.9375rem;
+    }
+
+    .skill-grid > div {
+      grid-template-columns: 6.5rem minmax(0, 1fr);
+    }
+  }
+
+  @media print {
+    padding: 0;
+
+    #main {
+      margin-top: 0;
+      padding: 0;
+    }
+
+    .profile-entry {
+      break-inside: avoid;
+    }
+  }
+}
+
+html[data-theme="dark"] .academic-home {
+  --global-bg-color: #191b1e;
+  --global-text-color: #e5e5e5;
+  --global-text-color-light: #b1b1b1;
+  --global-link-color: #a0bfe5;
+  --global-link-color-hover: #c3d8f2;
+  --global-link-color-visited: #a0bfe5;
+  --global-masthead-link-color: #d0d0d0;
+  --global-masthead-link-color-hover: #c3d8f2;
+  --global-border-color: #45474a;
+}
